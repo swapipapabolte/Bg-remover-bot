@@ -35,6 +35,7 @@ from random import choice as cc
 from random import randrange as rr
 
 import random
+import random
 import sys
 import time
 import os
@@ -48,9 +49,6 @@ badinsta = 0
 bademail = 0
 goodig = 0
 
-# 🔑 Apna password yaha set karo
-TOOL_PASSWORD = "swapibhai123"   # <-- apna secret password
-
 # Spinner animation
 def spinner(text, duration=2):
     spin = ["|","/","-","\\"]
@@ -62,14 +60,7 @@ def spinner(text, duration=2):
             time.sleep(0.1)
     sys.stdout.write(f"\r\033[92m✔ {text} Loaded!\n\033[0m")
 
-# Password System
-def check_password(password):
-    if password == TOOL_PASSWORD:
-        print(f"\n✅ \033[92mAccess Granted! Welcome.\033[0m\n")
-        return True
-    else:
-        print("\n❌ \033[91mWrong Password! Contact: @swapibhai\033[0m\n")
-        return False
+# Expiry System
 
 # Clear screen
 os.system('cls' if os.name == 'nt' else 'clear')
@@ -82,17 +73,13 @@ bar = "━" * 65
 print(f"\033[95m{bar}\033[0m")
 print("\033[92m🔥🔥 HIGH FOLLOWER FILE TOOL 🔥🔥\033[0m")
 print("\033[96m📢 Telegram: @swapipy\033[0m")
-print("\033[94m✨ Status: Checking Password... ⏳\033[0m")
+print("\033[94m✨ Status: Checking Expiry... ⏳\033[0m")
 print(f"\033[95m{bar}\033[0m")
 
 # Input Section
 Token = input("🔑 \033[93mEnter Your Bot Token:\033[0m ")
-ID = input("👤 \033[94mEnter Your USER ID:\033[0m ")   # <- sirf formal hai
-Password = input("🔐 \033[92mEnter Tool Password:\033[0m ")
+ID = input("👤 \033[94mEnter Your USER ID:\033[0m ")
 
-# Check Password
-if not check_password(Password):
-    exit()
 
 
 def pppp():
