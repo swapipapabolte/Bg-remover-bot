@@ -1,0 +1,10 @@
+python-telegram-bot==20.6
+requests
+aiohttp
+urllib3
+certifi
+idna
+charset-normalizer
+typing-extensions
+tzdata
+APScheduler
