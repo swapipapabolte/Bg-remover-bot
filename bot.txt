@@ -1,11 +1,7 @@
-python-telegram-bot==20.6
-requests
-aiohttp
-urllib3
-certifi
-idna
-charset-normalizer
-typing-extensions
-tzdata
-APScheduler
-7685675474|2025-09-17T03:22:44Z
+{
+    "7810784093": {
+        "added_at": "2025-09-18T15:26:03.028698+00:00",
+        "expires_in_hours": 24,
+        "expires_at": "2025-09-19T15:26:03.028698+00:00"
+    }
+}
